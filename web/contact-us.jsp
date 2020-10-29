@@ -23,7 +23,7 @@
         <!--[if lt IE 9]>
         <script src="js/html5shiv.js"></script>
         <script src="js/respond.min.js"></script>
-        <![endif]-->       
+        <![endif]-->
         <link rel="shortcut icon" href="images/ico/favicon.ico">
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
@@ -99,10 +99,10 @@
                                     <% if (username != null) {%>
                                     <li><a href="#"><i class="fa fa-user"></i> Account</a></li>
                                     <li><a href="#"><i class="fa fa-star"></i> Wishlist</a></li>
-                                    <li><form method=post action="checkout.jsp?"> 
+                                    <li><form method=post action="checkout.jsp?">
                                             <%String name = request.getParameter("username");
-                                                session.setAttribute("username", name);%> 
-                                        </form> 
+                                                session.setAttribute("username", name);%>
+                                        </form>
                                         <a href="checkout.jsp"><i class="fa fa-crosshairs"></i> Checkout</a></li>
                                     <li><a href="cart.jsp"><i class="fa fa-shopping-cart"></i> Cart</a></li>
                                         <%}%>
@@ -136,10 +136,10 @@
                                             <li><a href="shop.jsp">Products</a></li>
                                             <!--                                        <li><a href="product-details.jsp">Product Details</a></li> -->
                                             <li><a href="checkout.jsp">Checkout</a></li>
-                                            <li><a href="cart.jsp">Cart</a></li> 
-                                            <li><a href="login.jsp">Login</a></li> 
+                                            <li><a href="cart.jsp">Cart</a></li>
+                                            <li><a href="login.jsp">Login</a></li>
                                         </ul>
-                                    </li> 
+                                    </li>
                                     <!--                                <li class="dropdown"><a href="#">Blog<i class="fa fa-angle-down"></i></a>
                                                                         <ul role="menu" class="sub-menu">
                                                                             <li><a href="blog.html">Blog List</a></li>
@@ -163,14 +163,14 @@
 
         <div id="contact-page" class="container">
             <div class="bg">
-                <div class="row">    		
-                    <!--                    <div class="col-sm-12">    			   			
-                                            <h2 class="title text-center">Contact <strong>Us</strong></h2>    			    				    				
+                <div class="row">
+                    <!--                    <div class="col-sm-12">
+                                            <h2 class="title text-center">Contact <strong>Us</strong></h2>
                                             <div id="gmap" class="contact-map">
                                             </div>
                                         </div>			 		-->
-                </div>    	
-                <div class="row">  	
+                </div>
+                <div class="row">
                     <div class="col-sm-8">
                         <div class="contact-form">
                             <h2 class="title text-center">Get In Touch</h2>
@@ -187,7 +187,7 @@
                                 </div>
                                 <div class="form-group col-md-12">
                                     <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Your Message Here"></textarea>
-                                </div>                        
+                                </div>
                                 <div class="form-group col-md-12">
                                     <input type="submit" name="submit" class="btn btn-primary pull-right" value="Submit">
                                 </div>
@@ -199,10 +199,10 @@
                             <h2 class="title text-center">Contact Info</h2>
                             <address>
                                 <p>Buy4U Inc.</p>
-                                <p>Virginia Tech</p>
-                                <p>Virginia USA</p>
-                                <p>Mobile: +1 5403156422</p>
-                                <p>Email: yuw316@vt.edu &nbsp; hanghu@vt.edu</p>
+                                <p>Iowa State</p>
+                                <p>Iowa USA</p>
+                                <p>Mobile: +1 6267593854</p>
+                                <p>Email: xmy@iastate.edu &nbsp; xmy@iastate.edu</p>
                             </address>
                             <div class="social-networks">
                                 <h2 class="title text-center">Social Networking</h2>
@@ -215,9 +215,9 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>    			
-                </div>  
-            </div>	
+                    </div>
+                </div>
+            </div>
         </div><!--/#contact-page-->
 
         <!--        <footer id="footer">Footer
@@ -245,7 +245,7 @@
                                             <h2>24 DEC 2014</h2>
                                         </div>
                                     </div>
-        
+
                                     <div class="col-sm-3">
                                         <div class="video-gallery text-center">
                                             <a href="#">
@@ -260,7 +260,7 @@
                                             <h2>24 DEC 2014</h2>
                                         </div>
                                     </div>
-        
+
                                     <div class="col-sm-3">
                                         <div class="video-gallery text-center">
                                             <a href="#">
@@ -275,7 +275,7 @@
                                             <h2>24 DEC 2014</h2>
                                         </div>
                                     </div>
-        
+
                                     <div class="col-sm-3">
                                         <div class="video-gallery text-center">
                                             <a href="#">
@@ -300,7 +300,7 @@
                             </div>
                         </div>
                     </div>
-        
+
                     <div class="footer-widget">
                         <div class="container">
                             <div class="row">
@@ -362,11 +362,11 @@
                                         </form>
                                     </div>
                                 </div>
-        
+
                             </div>
                         </div>
                     </div>
-        
+
                     <div class="footer-bottom">
                         <div class="container">
                             <div class="row">
@@ -375,7 +375,7 @@
                             </div>
                         </div>
                     </div>
-        
+
                 </footer>/Footer-->
 
 
